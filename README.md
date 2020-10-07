@@ -42,3 +42,9 @@ The second part of the token is the payload, which contains the claims. Claims a
 ## Signature
 To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+# REFERENCES
+* [jwt hello world Authentication ](https://www.youtube.com/watch?v=p6MXb0GtXwg&t=892s)
+
+* [Authorization configuration ](https://www.youtube.com/watch?v=payxWrmF_0k)
+
+* [JWT INFO](https://jwt.io/introduction/)
