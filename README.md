@@ -42,6 +42,52 @@ The second part of the token is the payload, which contains the claims. Claims a
 ## Signature
 To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+## 5 Main concepts of Security
+
+- Authentication
+- Authorization
+- Principal
+- Granted Authority
+- Roles
+ 
+## **Authentication**
+
+User Authentication For any Web application which can be configured for validating the correct user name and password
+and various type of authentication are available such as 
+LdapAuthentication
+DaoAuthentication
+inMemoryAuthentication
+and more
+
+## **Authorization**
+
+Levels of Access In different end points can be controlled in Spring Boot with differentiating in Users providing them roles 
+just Like Admin is a Role 
+ 
+
+
+## **Principal**
+Currently Logged in User . Application Remembers the currently Logged in User with there information Stored in runtime refered as Principal .
+
+
+## **Granted Authority**
+
+Permissions Given To Users For Specific Requests/operation In the application which can be configured In a List of Auuthorities Which have to be assigned to specific User 
+
+## **Roles**
+Group OF Authorities can be added for particular set of people which is Known AS roles.
+
+## Jwt Dependency.
+``` 
+<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+        
+```
+
 # REFERENCES
 * [jwt hello world Authentication ](https://www.youtube.com/watch?v=p6MXb0GtXwg&t=892s)
 
