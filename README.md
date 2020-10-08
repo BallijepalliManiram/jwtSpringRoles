@@ -88,6 +88,15 @@ Group OF Authorities can be added for particular set of people which is Known AS
         
 ```
 
+![Generate Token ](https://github.com/kapil0jaiswal/jwtSpringRoles/blob/main/Generate-Token.jpg)
+
+![Validate token](https://github.com/kapil0jaiswal/jwtSpringRoles/blob/main/Validate-Token.jpg)
+
+
+![Jwt client](https://github.com/kapil0jaiswal/jwtSpringRoles/blob/main/jwt-client.jpg)
+
+![Spring Authentication](https://github.com/kapil0jaiswal/jwtSpringRoles/blob/main/spring%20authentication.png)
+
 # REFERENCES
 * [jwt hello world Authentication ](https://www.youtube.com/watch?v=p6MXb0GtXwg&t=892s)
 
